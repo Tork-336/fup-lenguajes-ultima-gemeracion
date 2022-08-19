@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+}
+
+button > nav {
+    background-color: darkgrey;
+}
+
+footer {
+    bottom: 0px;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+footer > div {
+    padding-left: 50px;
+    size: 3em;
+    color: white;
+}
