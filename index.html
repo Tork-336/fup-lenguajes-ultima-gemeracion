@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    <h1>Mi primer pagina Web!</h1>
     <nav>
-        <button onclick="home();">Home</button>
-        <button>Personas</button>
-        <button>Administracion</button>
-        <input placeholder="Ingresa aqui un texto a buscar!!" name="search">
+        <label for="">Lenguajes de ultima generacion</label>
+        <div>
+            <button onclick="home();">DATOS PERSONALES</button>
+            <button>PASATIEMPO</button>
+            <button>ESTUDIO</button>
+            <button>CONTACTO</button>
+        </div>
     </nav>
-    <footer>
+    <div class="container">
+        <h1>HOJA DE VIDA</h1>
+        <!--Foto-->
+        <div class="circle">
+            <img class="circle" src="img/wallpaperflare.com_wallpaper (2).jpg">
+        </div>
+        <!-- Los de mas elementos -->
+        <div class="datos">
+            <label for="">CONTACTO</label>
+            <div>
+                <label for="">TELEFONO FIJO: </label>
+                <label for="">312 240 5077</label>
+            </div>
+            <div>
+                <label for="">EMAIL: </label>
+                <label for="">fjastudillo34@gmail.com</label>
+            </div>
+            <div>
+                <label for="">CORREO INSTITUCIONAL: </label>
+                <label for="">fjastudillo34@gmail.com</label>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
         <div>
             <p>Francisco Astudillo</p>
             <a href="">fjastudillo34@gmail.com</a>
         </div>
     </footer>
+    <div class="container pagin-end">
+        <label for="">TAMBIEN EN</label>
+    </div>
 </body>
+
 </html>
