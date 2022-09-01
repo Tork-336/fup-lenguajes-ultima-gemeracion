@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---- Finisg CSS General ---- */
+nav {
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    display: inline-flex;
+}
+
+nav > h5 {
+    color: white;
+    padding-left: 8px;
+    size: 3em;
+}
+
+nav > div > button {
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+
+nav > div {
+    margin-left: 900px;
+}
+
+/* ---- Finish CSS Nav ------*/
+.container-body {
+    align-items: center;
+    padding: 20px;
+    min-height: calc(100% - 80px);
+    margin: 0 auto -210px;
+}
+
+.circle {
+	/*width: 10rem;*/
+	height: 10rem;
+	border-radius: 50%;
+    margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    background-image: url('img/wallpaperflare.com_wallpaper (2).jpg');
+}
+
+.head-body {
+    display: inline-flex;
+    margin-left: 180px;
+}
+
+.head-body-title > h1 {
+    margin-left: 670px;
+}
+
+.pasatiempo-title {
+    margin-left: 690px;
+    margin-top: 15px;
+}
+
+.pasatiempo-text {
+    margin-left: 660px;
+    display: grid;
+}
+
+/* ----- Finish CSS Content ----- */
+
+footer {
+    border-radius: 50px;
+    bottom: 0px;
+    height: 190px;
+    border-style: solid;
+    margin: 0 15px !important;
+}
+
+footer > div {
+    padding: 50px;
+    size: 3em;
+    color: black;
+}
+
+/* ------ Finish CSS Footer -------- */
